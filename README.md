@@ -85,4 +85,22 @@ $ bun test
 
 Further info: [Testing](https://bun.sh/docs/cli/test)
 
+### Bundler
+Bun includes a built-in bundler that can be used to bundle your code. It is based on your entry file.
 
+Let's also use some library for it:
+```bash
+# Native npm client is super fast!!
+$ bun i axios
+```
+
+- [Example Axios](./src/github-api.ts)
+- [Example JSX](./src/index.tsx)
+- [Example HTML](./src/index.html)
+
+```bash
+- [Dist Script](./package.json)
+
+```bash
+$ bun dist
+```
