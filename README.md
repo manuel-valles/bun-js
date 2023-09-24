@@ -43,3 +43,22 @@ They can be used in two ways (without any configuration or extra library!!):
 port: process.env.PORT || 3000 // Opt A
 port: Bun.env.PORT || 3000 // Opt B
 ```
+### Bun scripts
+```json
+{
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun --watch index.ts",
+    "hot": "bun --hot index.ts"
+  }
+}
+```
+```bash
+$ bun start
+```
+```bash
+$ bun dev
+```
+```bash
+$ bun hot
+```
