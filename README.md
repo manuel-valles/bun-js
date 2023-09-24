@@ -27,3 +27,11 @@ $ bun --version
 $ bun init
 $ bun run index.ts
 ```
+- To run it in watch mode (no `nodemon` required!!):
+```bash
+$ bun --watch index.ts
+```
+- To run it in hot reload mode for stateful apps:
+```bash
+$ bun --hot index.ts
+```
