@@ -6,7 +6,8 @@
     "start": "bun run index.ts",
     "dev": "bun --watch index.ts",
     "hot": "bun --hot index.ts",
-    "dist": "bun build ./src/index.tsx --outfile=./dist/bundle.js"
+    "dist": "bun build ./src/index.tsx --outfile=./dist/bundle.js",
+    "dist:watch": "bun dist --watch"
   },
   "devDependencies": {
     "bun-types": "latest"

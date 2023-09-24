@@ -104,3 +104,5 @@ $ bun i axios
 ```bash
 $ bun dist
 ```
+
+>NOTE: To add a watch on the build process, use `--watch` flag.
