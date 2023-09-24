@@ -43,6 +43,7 @@ They can be used in two ways (without any configuration or extra library!!):
 port: process.env.PORT || 3000 // Opt A
 port: Bun.env.PORT || 3000 // Opt B
 ```
+
 ### Bun scripts
 ```json
 {
@@ -62,6 +63,7 @@ $ bun dev
 ```bash
 $ bun hot
 ```
+
 ### Bun X
 `bun x` or `bunx` (alias) can be used to auto-install and run packages from `npm`:
 ```bash
@@ -72,3 +74,15 @@ $ bunx interactive-cli-tool
 You can use any node core module without any configuration or extra library. Please see examples: 
 - [modules](./modules.ts)
 - [file-system](./file-system.ts)
+
+### Testing
+Bun includes a built-in test runner that can be used to run your tests. It is based on your test file names. 
+
+[Example](./index.test.ts)
+```bash
+$ bun test
+```
+
+Further info: [Testing](https://bun.sh/docs/cli/test)
+
+
