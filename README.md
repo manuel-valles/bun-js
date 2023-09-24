@@ -108,3 +108,14 @@ $ bun dist
 >NOTE: To add a watch on the build process, use `--watch` flag.
 
 ### Transpiler
+Bun supports `.jsx` and `.tsx` files out of the box. Bun's internal transpiler converts JSX syntax into vanilla JavaScript before execution.
+
+- [Example](./src/index.tsx)
+
+```bash
+$ bun i react react-dom
+```
+
+```bash
+$ bun dist-react:watch
+```
