@@ -62,3 +62,8 @@ $ bun dev
 ```bash
 $ bun hot
 ```
+### Bun X
+`bun x` or `bunx` (alias) can be used to auto-install and run packages from `npm`:
+```bash
+$ bunx interactive-cli-tool
+```
