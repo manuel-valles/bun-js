@@ -94,9 +94,9 @@ Let's also use some library for it:
 $ bun i axios
 ```
 
-- [Example Axios](./src/github-api.ts)
-- [Example JSX](./src/index.tsx)
-- [Example HTML](./src/index.html)
+- [Example Axios](src/bundler-example/github-api.ts)
+- [Example TS](src/bundler-example/index.ts)
+- [Example HTML](src/bundler-example/index.html)
 
 ```bash
 - [Dist Script](./package.json)
@@ -106,3 +106,5 @@ $ bun dist
 ```
 
 >NOTE: To add a watch on the build process, use `--watch` flag.
+
+### Transpiler

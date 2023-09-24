@@ -1,4 +1,4 @@
-import getGithubUser from "./github-api";
+import getGithubUser from "./github-api.ts";
 
 (async () => {
     const user = await getGithubUser("manuel-valles");
