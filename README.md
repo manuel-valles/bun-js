@@ -69,4 +69,6 @@ $ bunx interactive-cli-tool
 ```
 
 ### Node Core Modules
-You can use any node core module without any configuration or extra library. Please see examples [here](./modules.ts).
+You can use any node core module without any configuration or extra library. Please see examples: 
+- [modules](./modules.ts)
+- [file-system](./file-system.ts)
