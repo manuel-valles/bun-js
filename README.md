@@ -35,3 +35,11 @@ $ bun --watch index.ts
 ```bash
 $ bun --hot index.ts
 ```
+
+## Features Examples
+### Environment variables 
+They can be used in two ways (without any configuration or extra library!!):
+```ts
+port: process.env.PORT || 3000 // Opt A
+port: Bun.env.PORT || 3000 // Opt B
+```
