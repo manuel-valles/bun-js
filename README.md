@@ -67,3 +67,6 @@ $ bun hot
 ```bash
 $ bunx interactive-cli-tool
 ```
+
+### Node Core Modules
+You can use any node core module without any configuration or extra library. Please see examples [here](./modules.ts).
